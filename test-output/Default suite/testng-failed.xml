@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="Runnerfile.Runner">
+      <class name="runnerfile.runner">
         <methods>
           <include name="setUpClass"/>
+          <include name="setup"/>
           <include name="feature" invocation-numbers="0"/>
           <include name="tearDownClass"/>
         </methods>
-      </class> <!-- Runnerfile.Runner -->
+      </class> <!-- runnerfile.runner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

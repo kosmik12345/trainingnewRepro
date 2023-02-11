@@ -46,7 +46,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Nov 13, 2022 02:54:33 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Feb 10, 2023 05:02:26 PM</span>
 				</a>
 			</li>
 			<li>
@@ -85,7 +85,7 @@
 					<i class='material-icons'>local_offer</i> Category
 				</a>
 				<ul id='category-toggle' class='dropdown-content'>
-					<li><a href='#'>@login</a></li>
+					<li><a href='#'>@smoke</a></li>
 					<li class='divider'></li>
 					<li class='clear'><a href='#!' clear='true'>Clear Filters</a></li>
 				</ul>
@@ -183,12 +183,12 @@
 				<li class='test displayed active has-leaf fail' status='fail' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Login feature file</span>
-						<span class='test-time'>Nov 13, 2022 02:54:33 PM</span>
+						<span class='test-time'>Feb 10, 2023 05:02:27 PM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenariooutline node' test-id='2' status='fail'>
-	<span class='duration right label'>0h 0m 8s+784ms</span>
+	<span class='duration right label'>0h 0m 17s+323ms</span>
 	<div class='desc'>
 		<b>ScenarioOutline</b>
 		<span class="desc-text">User should be able to login to the application</span>
@@ -196,7 +196,7 @@
 	<ul class='steps'>
 		<li test-id='3' class='node scenario fail' status='fail'>
 			<div class='category-list'>
-				<span class='category label white-text'>@login</span>
+				<span class='category label white-text'>@smoke</span>
 			</div>
 			
 			<b>Scenario</b>
@@ -207,57 +207,39 @@
 					<li test-id='4' class='node given pass' status='pass'><b>Given</b>
 						<span class="bdd-step-name">Given User is in login page</span>
 						<ul class='screenshots right'>
-							<li><a data-featherlight="image" href="D:\screenprint\ScreenCapture1668331480982.png"><i class='material-icons'>panorama</i></a></li>
+							<li><a data-featherlight="image" href="D:\screenprint\ScreenCapture1676028762125.png"><i class='material-icons'>panorama</i></a></li>
 						</ul>
-							<div class='pre'>application Opened successfully</div>
+							<div class='pre'>Page is displayed successfully</div>
 							<div class='pre'>passed</div>
 					</li>
 					<li test-id='5' class='node when pass' status='pass'><b>When</b>
-						<span class="bdd-step-name">When User enters email id "prashanthi.skvl@gmail.com"</span>
+						<span class="bdd-step-name">When User enters email id prashanthi.skvl@gmail.com</span>
 						<ul class='screenshots right'>
-							<li><a data-featherlight="image" href="D:\screenprint\ScreenCapture1668331481251.png"><i class='material-icons'>panorama</i></a></li>
+							<li><a data-featherlight="image" href="D:\screenprint\ScreenCapture1676028762510.png"><i class='material-icons'>panorama</i></a></li>
 						</ul>
-							<div class='pre'>User Entered Email ID sucessfully</div>
+							<div class='pre'>email is entered</div>
 							<div class='pre'>passed</div>
 					</li>
 					<li test-id='6' class='node and pass' status='pass'><b>And</b>
-						<span class="bdd-step-name">And User enters password "Test@123"</span>
+						<span class="bdd-step-name">And User enters password Test@123455</span>
+							<div class='pre'>password is entered</div>
 							<div class='pre'>passed</div>
 					</li>
 					<li test-id='7' class='node and pass' status='pass'><b>And</b>
 						<span class="bdd-step-name">And User clicks the signin button</span>
+						<ul class='screenshots right'>
+							<li><a data-featherlight="image" href="D:\screenprint\ScreenCapture1676028764359.png"><i class='material-icons'>panorama</i></a></li>
+						</ul>
+							<div class='pre'>Sign in successfully.</div>
 							<div class='pre'>passed</div>
 					</li>
 					<li test-id='8' class='node then fail' status='fail'><b>Then</b>
-						<span class="bdd-step-name">Then User should be logged in successfully</span>
-							<div class='pre'><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=107.0.5304.107)
-Build info: version: '4.2.2', revision: '683ccb65d6'
-System info: host: 'LAPTOP-RB73I23S', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [092a33bf7c5dbf7ed7be136ba48b6271, findElement {using=xpath, value=//h3[text()='My Projects']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\kalya\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50595}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50595/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 092a33bf7c5dbf7ed7be136ba48b6271
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:398)
-	at kosmikpages.Allprojects.captureMyProjectsText(Allprojects.java:40)
-	at StepdefincationStudio.loginstudioStepdefination.user_should_be_logged_in_successfully(loginstudioStepdefination.java:45)
-	at ?.Then User should be logged in successfully(loginstudios.feature:10)
+						<span class="bdd-step-name">Then User should be able to see the error message</span>
+							<div class='pre'><pre>java.lang.AssertionError: The following asserts failed:
+	expected [Invalid email or] but found [Invalid email or password.]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at fortrainingsetpdefinitions.login.User_should_be_able_to_see_the_error_message(login.java:75)
+	at ?.Then User should be able to see the error message(feature/log.feature:11)
 </pre></div>
 					</li>
 				</ul>
@@ -318,7 +300,7 @@ Session ID: 092a33bf7c5dbf7ed7be136ba48b6271
 				
 				<li class='category displayed active'>
 					<div class='category-heading'>
-						<span class='category-name'>@login</span>
+						<span class='category-name'>@smoke</span>
 						<span class='category-status right'>
 							<span class='label fail'>1</span>
 						</span>
@@ -341,7 +323,7 @@ Session ID: 092a33bf7c5dbf7ed7be136ba48b6271
 								</thead>
 								<tbody>
 									<tr>
-										<td>Nov 13, 2022 02:54:33 PM</td>
+										<td>Feb 10, 2023 05:02:27 PM</td>
 										<td class='linked' test-id='3'>Login feature file.User should be able to login to the application.User should be able to login to the application</td>
 										<td><span class='test-status fail'>fail</span></td>
 									</tr>
@@ -389,7 +371,7 @@ Session ID: 092a33bf7c5dbf7ed7be136ba48b6271
 
                         <li class='exception displayed active'>
                             <div class='exception-heading'>
-                                <span class='exception-name'>org.openqa.selenium.NoSuchWindowException</span>
+                                <span class='exception-name'>java.lang.AssertionError</span>
                                 <span class='exception-count right'><span class='label red lighten-1 white-text'>1</span></span>
                             </div>
                             <div class='exception-content hide'>
@@ -404,36 +386,13 @@ Session ID: 092a33bf7c5dbf7ed7be136ba48b6271
                                         </thead>
                                         <tbody>
                                                     <tr>
-                                                        <td>Nov 13, 2022 02:54:42 PM</td>
-                                                        <td class='linked' test-id='8'>Login feature file.User should be able to login to the application.User should be able to login to the application.Then User should be logged in successfully</td>
-                                                        <td><pre><pre>org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=107.0.5304.107)
-Build info: version: '4.2.2', revision: '683ccb65d6'
-System info: host: 'LAPTOP-RB73I23S', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [092a33bf7c5dbf7ed7be136ba48b6271, findElement {using=xpath, value=//h3[text()='My Projects']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\kalya\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50595}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:50595/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 092a33bf7c5dbf7ed7be136ba48b6271
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:588)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:406)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:398)
-	at kosmikpages.Allprojects.captureMyProjectsText(Allprojects.java:40)
-	at StepdefincationStudio.loginstudioStepdefination.user_should_be_logged_in_successfully(loginstudioStepdefination.java:45)
-	at ?.Then User should be logged in successfully(loginstudios.feature:10)
+                                                        <td>Feb 10, 2023 05:02:44 PM</td>
+                                                        <td class='linked' test-id='8'>Login feature file.User should be able to login to the application.User should be able to login to the application.Then User should be able to see the error message</td>
+                                                        <td><pre><pre>java.lang.AssertionError: The following asserts failed:
+	expected [Invalid email or] but found [Invalid email or password.]
+	at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:43)
+	at fortrainingsetpdefinitions.login.User_should_be_able_to_see_the_error_message(login.java:75)
+	at ?.Then User should be able to see the error message(feature/log.feature:11)
 </pre></pre></td>
                                                     </tr>
                                         </tbody>
@@ -478,19 +437,19 @@ Session ID: 092a33bf7c5dbf7ed7be136ba48b6271
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Nov 13, 2022 02:54:33 PM</div>
+					<div class='panel-lead'>Feb 10, 2023 05:02:26 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Nov 13, 2022 02:54:42 PM</div>
+			 		<div class='panel-lead'>Feb 10, 2023 05:02:44 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>8,986ms</div>
+					<div class='panel-lead'>17,828ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -505,7 +464,7 @@ Session ID: 092a33bf7c5dbf7ed7be136ba48b6271
 							<th>Others</th>
 						</tr>
 						<tr>
-							<td>@login</td>
+							<td>@smoke</td>
 							<td>0</td>
 							<td>1</td>
 							<td>0</td>

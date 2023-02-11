@@ -1,13 +1,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Testing_Suite" >
+<suite name="Testing Regression" >
 
 	
-	<test name="RegressionTest">
+	<test name="functionalTest">
 	
 	
 	
 		<classes>
-					<class name="Runnerfile.Runner"></class>
+					<class name="runnerfile.runner"></class>
 		           
 					
 			
